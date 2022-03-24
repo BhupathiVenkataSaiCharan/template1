@@ -1,7 +1,7 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
 
-import Error from "../Pages/Error"
+// import Error from "../Pages/Error"
 
 import Design1 from '../Design/Design1';
 import Edit from '../Design/Edit';
@@ -13,10 +13,11 @@ const Navigation = () => {
     <>
         <Router>
             <Routes>
-                <Route exact="true" path="/" element={<Design1/>}/>
+                <Route path="/design" element={<Design1/>}/>
                 <Route path="/profilepage" element={<ProfilePage/>}/>
                 <Route path="/edit" element={<Edit/>}/>
-                <Route path="*" element={<Error/>} />
+                <Route path="/" element={<Navigate replace to="/design" />}/>
+                <Route path='*' element={<Navigate replace to="/"/>}/>
             </Routes>
         </Router>
     </>

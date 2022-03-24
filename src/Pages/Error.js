@@ -11,8 +11,10 @@ const Error = () => {
 
   return (
     <>
-      <div>Error not found the page</div>
-      <button onClick={backHome}>Getback to mainpage</button>
+      <div className='text-lg-center'>
+        <h1>Error not found the page</h1>
+        <button onClick={backHome}>Getback to mainpage</button>
+      </div>
     </>
   )
 }
