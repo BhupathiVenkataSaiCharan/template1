@@ -24,7 +24,9 @@ const ProfilePage = (formValues) => {
   
   <div className="container-fluid">
     <a className="navbar-brand text-white" href="#m">
-    <img className='navbar-img' src='http://www.bizwy.com/images/Bizwy-logo-180.svg'
+    {/* <img className='navbar-img' src='http://www.bizwy.com/images/Bizwy-logo-180.svg'
+                                alt='logo' width="70" height="70" style={{marginLeft:"40px"}} /> */}
+    <img className='navbar-img' src='../../images/img1.jpg'
                                 alt='logo' width="70" height="70" style={{marginLeft:"40px"}} />
     </a>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
