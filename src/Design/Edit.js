@@ -24,6 +24,7 @@ const Edit = (formValues) => {
         <center>
           <div className="box">
             <img src="../../images/img1.jpg" alt="pic"/>
+            
             <input type="file" name="" id="file" accept='image' />
             <label>EDIT PICTURE</label>
             <input type="text" name='' value={user} placeholder='User Name' onChange={e=>setUser(e.target.value)} />

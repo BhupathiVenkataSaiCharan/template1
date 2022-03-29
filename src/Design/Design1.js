@@ -93,8 +93,10 @@ const Design1 = () => {
     	        <div className="col-lg-4 offset-lg-4 float-lg-start">
     		        <div className="panel panel-default">
 			  	        <div className="panel-heading">
-                          <img className='panel-img' src='http://www.bizwy.com/images/Bizwy-logo-180.svg'
-                                alt='logo' width="100" height="100" />
+                          {/* <img className='panel-img' src='http://www.bizwy.com/images/Bizwy-logo-180.svg'
+                                alt='logo' width="100" height="100" /> */}
+                          <img className='panel-img' src='../../images/img1.jpg'
+                                alt='logo' width="100" height="100" style={{borderRadius:"50%"}} />
 			 	        </div>
                     <div className="panel-body">
                         <form>
