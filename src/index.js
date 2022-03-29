@@ -7,4 +7,6 @@ ReactDOM.render(
   document.getElementById('root')
 );
 
-//repo name: Login in github
+//repo name: template1 in github
+
+// to remove remote origin previous one use "git remote -v" to check and "git remote rm -v" to remove connnection
