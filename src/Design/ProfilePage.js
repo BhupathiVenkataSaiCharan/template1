@@ -6,11 +6,11 @@ const ProfilePage = (formValues) => {
   let navigate = useNavigate();
 
   const Logout = () =>{
-      navigate("/");
+      navigate("/shop/login");
   }
 
   const doEdit = () =>{
-    navigate("/edit");
+    navigate("/shop/edit");
 }
 
   return (
