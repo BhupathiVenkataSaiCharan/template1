@@ -14,8 +14,8 @@ const Navigation = () => {
         <Router>
             <Routes>
                 <Route path="/shop/login" element={<Design1/>}/>
-                <Route path="/profilepage" element={<ProfilePage/>}/>
-                <Route path="/edit" element={<Edit/>}/>
+                <Route path="/shop/profilepage" element={<ProfilePage/>}/>
+                <Route path="/shop/edit" element={<Edit/>}/>
                 <Route path="/" element={<Navigate replace to="/shop/login"/>}/>
                 <Route path='*' element={<Navigate replace to="/"/>}/>
             </Routes>

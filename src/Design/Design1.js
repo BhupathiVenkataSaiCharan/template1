@@ -41,7 +41,7 @@ const Design1 = () => {
           setFormErrors(passerrors);
         } else {
           localStorage.setItem("formValues",JSON.stringify(formValues));
-          navigate("/profilepage");
+          navigate("/shop/profilepage");
         }
     }
 

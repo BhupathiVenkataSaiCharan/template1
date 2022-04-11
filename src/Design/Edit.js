@@ -12,7 +12,7 @@ const Edit = (formValues) => {
   let navigate = useNavigate();
 
   const profilePage = () =>{
-      navigate("/profilepage");
+      navigate("/shop/profilepage");
   }
 
   return (
