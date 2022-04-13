@@ -1,5 +1,5 @@
 import React from 'react';
-import Navbar from './Navbar';
+import NavBar from './Responsive/NavBar';
 // import Navigation from './Routing/Navigation';
 
 
@@ -8,8 +8,8 @@ function App() {
   return (
     <div className="App">
       {/* <Navigation/> */}
-      
-      <Navbar/>
+
+      <NavBar/>
 
     </div>
     );
