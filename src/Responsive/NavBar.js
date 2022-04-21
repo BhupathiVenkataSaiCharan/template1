@@ -67,7 +67,7 @@ const NavBar = () => {
       {/* hero section */}
       <section className="hero-section">
         <p>Welcome to</p>
-        <h1>Sai Charan</h1>
+        <h1>Web Application</h1>
       </section>
 
     </>

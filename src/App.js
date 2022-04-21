@@ -1,18 +1,18 @@
 import React from 'react';
-import NavBar from './Responsive/NavBar';
-// import Navigation from './Routing/Navigation';
+// import NavBar from './Responsive/NavBar';
+import Navigation from './Routing/Navigation';
 
 
 function App() {
 
   return (
-    <div className="App">
-      {/* <Navigation/> */}
+    <div>
+      <Navigation/>
 
-      <NavBar/>
+      {/* <NavBar/> */}
 
     </div>
-    );
+  );
 }
 
 export default App;
